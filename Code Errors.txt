@@ -1,0 +1,308 @@
+1.en.js & hi - 
+    . what to use and where to use is not written at the top of file
+2. modules/Allergies/components/AddAllergies/AddAllergies-
+    . backCallback() not in Es6 format 
+    . useEffect() , isAllergySetup , mapStateToProps ,mapDispatchToProps  not added documentation
+    . I18n.t() where did he come from and used for ?
+3. modules/Allergies/components/AllergiesForm/AllergiesForm.js. 
+    . useEffect() cleanUp function not in Es6 format 
+    . useEffect() , gridSize  not added documentation
+    . I18n.t() where did he come from and used for ?
+4. modules/Allergies/components/AllergiesTable/components/DefaultAllergies/DefaultAllergies.js
+    . useEffect() , handleSearchChange() ,tableTitle() , onMarkPreferredAllergies() , useState()  not added documentation
+    . useEffect() , handleSearchChange()  not in Es6 format 
+    . I18n.t() where did he come from and used for ?
+5. modules/Allergies/components/AllergiesTable/components/PrefferedAllergies.js 
+    . useEffect() , handleSearchChange() ,tableTitle() , useState()  not added documentation
+    . useEffect() , handleSearchChange()  not in Es6 format 
+    . I18n.t() where did he come from and used for ?
+6. modules/Allergies/components/AllergiesTable/components/Table/table.js 
+    . columns var.  not added documentation
+    . I18n.t() where did he come from and used for ?
+7. modules/Allergies/components/AllergiesTable/AllergiesTable.js 
+    . useEffect() , mapStateToProps , mapDispatchToProps  not added documentation
+    . I18n.t() where did he come from and used for ?
+8. modules/Allergies/components/UpdateAllergies/UpdateAllergies.js -
+    . useEffect() ,allergyId Var. , gridSize  not added documentation
+    . backCallback()  not in Es6 format 
+    . I18n.t() where did he come from and used for ?
+9. modules/Allergies/Utils/UtilHelper.js  -
+    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
+10. modules/Authentication/components/EnterMobile/EnterMobile.js -
+    . I18n.t() where did he come from and used for ?
+    . useState()  not added documentation
+11. modules/Authentication/components/ForgetPin/ForgetPin.js -
+    . I18n.t() where did he come from and used for ?
+    . useState() , loginWithPin() ,loginWithOtp(),mapDispatchToProps() ,generateOTP() not added documentation
+    . loginWithPin() ,loginWithOtp() is not in es6 format
+    . getDeviceId()  where did he come from and used for  in comments
+15. modules/Authentication/components/LoginWithOtp/LoginWithOtp.js -
+    . regenerateOtp() , loginWithOTP() , generateOTP() , userOrganizationsByNumber() not added documentation
+    . getDeviceId()  where did he come from and used for  in comments
+    . I18n.t() where did he come from and used for ?
+16. modules/Authentication/components/LoginWithPin/LoginWithPin.js-
+    . userOrganizationsByNumber() , forgetPin() , handleChangeAutocomplete() , handleSelectedOrganization() ,loginWithPin(),cancelSelectOrganization() not added documentation
+    . loginWithPin() if condi. , handleChangeAutocomplete() , forgetPin() , is not in es6 format
+    . I18n.t() where did he come from and used for ?
+    . getDeviceId()  where did he come from and used for  in comments
+17. modules/Authentication/components/ResetPin/ResetPin.js-
+    . useEffect(),handleChange(),validatePin(),resetPin(), useState() not added documentation
+    . useeffect(), handleChange() if condi. , validatePin() else condi. ,handleSubmit() else condi. is not in es6 format
+    . I18n.t() where did he come from and used for ?
+18. modules/Authentication/components/SelectOrganization/SelectOrganization.js-
+    . useEffect(),userOrganizationsByNumber(),handleSelectOrganization(), useState(), mobile var. not added documentation
+    . userOrganizationsByNumber() if condi.,mapDispatchToProps() if condi. is not in es6 format
+    . I18n.t() where did he come from and used for ?
+19.  modules/Authentication/components/SetupPin/SetupPin.js-
+    . handleChange() ,validatePin() , mapDispatchToProps() not added documentation
+    . handleChange() if condi. ,validatePin() else condi. ,handleSubmit() else condi., mapDispatchToProps(),  is not in es6 format
+    . I18n.t() where did he come from and used for ?
+20.  modules/Authentication/components/SignIn/SignIn.js-
+    . styles var ,useEffect() , mapDispatchToProps() not added documentation
+    . useEffect(),handleCloseSnackbar() ,handleSubmit() , mapDispatchToProps()  is not in es6 format
+    . I18n.t() where did he come from and used for ?
+21.  modules/Authentication/components/VerifyPin/VerifyPin.js-
+    . useEffect()  not added documentation
+    . handleChange() is not in es6 format
+    . I18n.t() where did he come from and used for ?
+22.  modules/Authentication/utils/UtilHelper.js - 
+    . getCurrentRole () , getDeviceId()  not added documentation
+    . getCurrentRole() if condi. is not in es6 format
+23.  modules/Authentication/AuthenticationActions.js -
+    . setPin(),updateProfileImage(),deleteProfileImage() ,sessionExpired(),getAllStates(),getAllSpecalities(), not added documentation
+24.  modules/Authentication/AuthenticationApiActions.js -
+    . generateOTPRequest(),loginWithOTPRequest(),loginWithPinRequest(),setPinRequest(),resetPinRequest(),userOrganizationsByNumberRequest()  not added documentation
+25.  modules/Authentication/AuthenticationReducer.js -
+    . currentRole var, case SIGN_IN,SET_PIN,CHANGE_PASSWORD,UPDATE_USER_PROFILE,DELETE_USER_PROFILE,SESSION_EXPIRED,STATES_LIST,SPECIALITIES_LIST,SIGN_OUT not added documentation
+26.  modules/Authorisation/components/AddTemplate/AddTemplate.js -
+    . backCallback(),useEffect(),mapDispatchToProps(),mapStateToProps()  not added documentation
+    . backCallback(),useEffect(),mapDispatchToProps(),addRole() is not in es6 format
+27.  modules/Authorisation/components/Resources/Resources.js -
+    . onExpand(),onCheck(),if condi. Line No. 48,126,174  not added documentation
+    . onExpand(),onCheck() is not in es6 format
+28.  modules/Authorisation/components/ResourcesList/ResourcesList.js -
+    . useEffect(),onCheck(),renderSkeleton(),handleSubmit(),backToTemplatePage(),mapDispatchToProps(),mapStateToProps()  not added documentation
+    . mapDispatchToProps(),backToTemplatePage(),onCheck(),useEffect() is not in es6 format
+29.  modules/Authorisation/components/TemplateForm/TemplateForm.js -
+    . useEffect(),onCheck(),mapDispatchToProps(),mapStateToProps()  not added documentation
+    . useEffect(),useEffect() cleanUp function,onCheck() is not in es6 format
+30.  modules/Authorisation/components/Templates/Templates.js -
+    . useEffect(),templateClick(),mapDispatchToProps(),mapStateToProps()  not added documentation
+    . mapDispatchToProps()  is not in es6 format
+31.  modules/Authorisation/components/UpdateTemplate/UpdateTemplate.js -
+    . useEffect(),backCallback(),getTemplateDetailsById(),UpdateRole(),mapDispatchToProps(),mapStateToProps()  not added documentation
+    . backCallback(),UpdateRole(),mapDispatchToProps()  is not in es6 format
+32.  modules/Authorisation/Utils/UtilHelper.js -
+    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
+33.  modules/Authorisation/AuthorisationActions.js
+    . setAllResources(),setAllRoles(),setAllOrganizationRoles(),updateRoleDetails(),setAllDefaultLanguages(),setAllOrganizationLanguages(),
+    setAllDefaultSpecialities(),setAllOrganizationSpecialities(),setAllDefaultFacalities(),setAllOrganizationFacalities(),
+    setAllDefaultDesignations(),setAllOrganizationDesignations(),setAllDefaultDepartments(),setAllOrganizationDepartments(),
+    setAllDefaultProcedures(),setAllOrganizationProcedures(),setAllOrganizationConsentProcedures() not added documentation
+34.  modules/Authorisation/AuthorisationApiActions.js
+    . getRoleDetailsRequest() -catch()  is not in es6 format
+35. modules/Authorisation/AuthorisationReducer.js
+    . initialState , case SET_ALL_DEFAULT_DEPARTMENTS,SET_ALL_DEFAULT_DESIGNATIONS,SET_ALL_DEFAULT_FACILITIES,SET_ALL_DEFAULT_LANGUAGES,
+    SET_ALL_DEFAULT_PROCEDURES,SET_ALL_DEFAULT_SPECIALITIES,SET_ALL_ORGANIZATION_CONSENT_PROCEDURES,SET_ALL_ORGANIZATION_DEPARTMENTS,
+    SET_ALL_ORGANIZATION_DESIGNATIONS,SET_ALL_ORGANIZATION_FACILITIES,SET_ALL_ORGANIZATION_LANGUAGES,SET_ALL_ORGANIZATION_PROCEDURES,
+    SET_ALL_ORGANIZATION_ROLES.SET_ALL_ORGANIZATION_SPECIALITIES,SET_ALL_RESOURCES,SET_ALL_ROLES,UPDATE_DETAILS_OF_ROLE  not added documentation
+36. modules/Consult/components/ConsultBooking/ConsultBooking.js-
+    . var doctor_list,symptoms_list,gender_list,Transition. If Condi Lane No. 150,  not added documentation
+    . componentDidMount(),componentWillUnmount() is not in es6 format
+37. modules/Consult/components/Consults/Consults.js-
+    . TabPanel.propTypes ,a11yProps(),handleTabChange(),componentDidMount()  not added documentation
+    . handleTabChange() is not in es6 format
+38. modules/Consult/components/HistoryConsult/HistoryConsult.js-
+    . rows var ,columns.  not added documentation
+    .return on 109 Line  is not in es6 format
+39 modules/Consult/components/UpcomingConsult/UpcomingConsult.js-
+    . rows var ,columns.  not added documentation
+    .return on 109 Line  is not in es6 format
+40. modules/Consult/Utils/UtilHelper.js-
+    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
+41. modules/DashBoard/components/DashBoard/DashBoard.js-
+    . const drawerWidth,styles. checkIdleTime(), not added documentation
+    . useEffect() ,handleDrawerOpen(),handleDrawerClose(),detectNoActivity(),handleCloseSnackbar(),clearSession(),mapDispatchToProps()not in es6 format
+42. modules/DashBoard/components/Home/Home.js-
+    . if condi. Line No.15 not added documentation
+    . if condi. Line No.15 not in es6 format
+43. modules/DashBoard/components/UserdashBoard/UserdashBoard.js-
+    .useEffect() not added documentation
+44. modules/DashBoard/DashBoardApiActions.js -
+    . getSummary(),getAnalysis(),getBillingSummary()  not added documentation
+    . getSummary(),getAnalysis(),getBillingSummary() not in es6 format
+45. modules/DashBoard/DashBoardReducer.js -
+    . case PAGE_SECONDARY_TITLE,PAGE_TITLE,SHOW_SIDE_MENU,TOGGLE_SIDE_MENU  not added documentation
+46. modules/DiagnosisMapping/components/AddDiagnosis/AddDiagnosis.js-
+    . componentDidMount(),componentWillUnmount(),handleChange() if condi. not in es6 format
+47. modules/DiagnosisMapping/components/AddDiagnosisMapping/AddDiagnosisMapping.js-
+    . showModal() not in es6 format
+48. modules/DiagnosisMapping/components/AddDiagnosisMapping/AddDiagnosisMapping.js-
+    .const  MEDICINES,Transition,CustomeDialogTitle() ,onAdviceChange(),addAdvice(),onUpdateAdviceRequest(),updateAdvice(),deleteAdvice() not added documentation
+    . return on Line No.89,120. componentDidMount(),componentWillUnmount(),showModal()  not in es6 format
+49. modules/DiagnosisMapping/components/AddSymptomsMedicine/AddSymptomsMedicine.js-
+    . const SYMPTOMS,MEDICINES,handleDeleteHighSymptoms(),handleDeleteMediumSymptoms(),handleDeleteLowSymptoms(),handleDeleteMedicine()  not added documentation
+    . componentDidMount(),componentWillUnmount(),handleAddDiagnosisMapping() not in es6 format
+50. modules/DiagnosisMapping/components/DiagnosisMappingTable/DiagnosisMappingTable.js-
+    . const SYMPTOMS,MEDICINES,handleDeleteHighSymptoms(),handleDeleteMediumSymptoms(),handleDeleteLowSymptoms(),handleDeleteMedicine()  not added documentation
+    . componentDidMount(),componentWillUnmount(),handleAddDiagnosisMapping() not in es6 format
+51. modules/DiagnosisMapping/utils/UtilHelper- 
+    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
+52. modules/Disease/components/AddDisease/AddDisease.js- 
+    . backCallback(), useEffect() not added documentation
+    . backCallback(),handleAddDisease(),mapDispatchToProps()   not in es6 format
+53. modules/Disease/components/DiseaseForm/DiseaseForm.js- 
+    . useEffect() not added documentation
+    . useEffect()  not in es6 format
+54. modules/Disease/components/DiseaseTable/components/DefaultDiseases/DefaultDiseases.js -
+    . useEffect(),handleSearchChange(),onMarkPreferredDisease() not added documentation
+    . useEffect(),handleSearchChange()  not in es6 format
+55. modules/Disease/components/DiseaseTable/components/PreferredDiseases/PreferredDiseases.js -
+        . useEffect(),handleSearchChange()not added documentation
+       . useEffect(),handleSearchChange()  in es6 format
+56. modules/Disease/components/DiseaseTable/components/Table/Table.js -
+     . const columns,not added documentation
+       .  return Line No . 28 ,37  is not in es6 format
+57. modules/Disease/components/DiseaseTable/DiseaseTable/DiseaseTable.js -
+        . useEffect(), mapDispatchToProps(),not added documentation
+       .  mapDispatchToProps() is not in es6 format
+58. modules/Disease/components/DiseaseTable/UpdateDisease/UpdateDisease.js- 
+      . backCallback(),useEffect(),not added documentation
+       .backCallback()is not in es6 format
+59. modules/Disease/components/DiseaseTable/utils/UtilHelper-
+ . validateBlankSpaces() not added documentation
+    . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
+60. modules/Disease/components/DoctorProfileSetUp/components/AddSignature/AddSignature -
+     . clear(),trim()not added documentation
+    .CustomeDialogTitle(),clear(),onCancel(),componentWillReceiveProps() is not in es6 format
+61. modules/Disease/components/DoctorProfileSetUp/components/DoctorProfileSetUp/DoctorProfileSetUp -
+    .onAddSignature(),addSignature(),onCancleAddSignature()not added documentation
+    .onAddSignature(),addSignature(),onCancleAddSignature(),not in es6 format
+62. modules/Disease/components/Hospital/components/AddHospital/AddHospital- 
+     .backCallback(),useEffect(),mapDispatchToProps()not added documentation
+    .mapDispatchToProps(),backCallback()not in es6 format
+63. modules/Disease/components/Hospital/components/HospitalDeatils/HospitalDeatils- 
+      .onDrop(),onsearchLocation()not added documentation
+64. modules/Disease/components/Hospital/components/HospitalList/HospitalList- 
+ .useEffect(),mapDispatchToProps()not added documentation
+    .useEffect(),onEditHospital(),mapDispatchToProps(),return lineno.60,not in es6 format
+65. modules/Disease/components/Hospital/components/HospitalList/HospitalList- 
+   .TabPanel.propTypes,a11yProps(),handleChange(),backCallButtonback()not added documentation
+    .mapDispatchToProps(),backCallback(),handleChange(),backCallButtonback(),attachComponent()not in es6 format
+66. modules/Disease/components/Hospital/components/OnBoardHospital/OnBoardHospital- 
+    .const Transition,CustomeDialogTitle()not added documentation
+    .CustomeDialogTitle(),componentDidMount(),componentWillUnmount(),updateMobileNumber(),not in es6 format
+67. modules/Disease/components/Hospital/components/OnBoardHospitalForm/OnBoardHospitalForm- 
+    .useEffect()not added documentation
+    .useEffect() cleanup function ,handleChangeInput(),handleChangeInputAdminDetails()not in es6 format
+68. modules/Disease/components/Hospital/components/SerupPractice/components/AllergiesSetup/AllergiesSetup-
+    .useEffect(),not added documentation
+    .allergyFormHideShow()not in es6 format
+69. modules/Disease/components/Hospital/components/SerupPractice/components/ConsentFormTemplate/components/components/ProcedureForm/ProcedureForm .js -
+     .checkAvailability(),getCaretPosition(),handleChangeTextArea(),handleChangeHospitalNotes(),renderField(),setCharAt(),procedureBodyTextRender(),checkConditionalityCSS() not added documentation
+    .checkConditionalityCSS(), renderField(),handleChangeHospitalNotes(), not in es6 format
+70. modules/Disease/components/Hospital/components/SerupPractice/components/ConsentFormTemplate/components/components/ProcedureList/ProcedureList .js -
+    .useEffect(),onCheck(),renderSkeleton(),routeConsentFormTemplate(),mapDispatchToProps not added documentation
+    .onCheck(),mapDispatchToProps() not in es6 format
+71. modules/Disease/components/Hospital/components/SerupPractice/components/ConsentFormTemplate/components/components/UnusedField/UnusedField .js -
+    .const formField,disabledFields,fieldTypes,useEffect() not added documentation
+    .useEffect()not in es6 format
+72. modules/Disease/components/Hospital/components/SerupPractice/components/ConsentFormTemplate/ConsentFormTemplate.js -
+    .const hospitalInfo,backCallback(),useEffect(), fieldRemoveFromForm(),fieldAddInForm(),onSelectField(),fieldTypeAddInForm(),saveTemplate(),procedureLanguageSelection() not added documentation
+    .backCallback(),useEffect() ,fieldRemoveFromForm(),fieldAddInForm(),mapDispatchToProps() not in es6 format
+73. modules/Disease/components/Hospital/components/SetupPractice/components/ContactInfoSetup/ContactInfoSetup.js - 
+    .useEffect(),addValidationRule(),getOrganizationContactInfo()s not added documentation
+    .useEffect() cleanup function ,mapDispatchToProps()not in es6 format
+74. modules/Disease/components/Hospital/components/SetupPractice/components/DepartmentSetup/components/DeaprtmentForm/DeaprtmentForm.js - 
+    .useEffect() not added documentation
+    .useEffect() cealnup func.,addDepartmentInOrganization(),mapDispatchToProps()  not in es6 format
+75. modules/Disease/components/Hospital/components/SetupPractice/components/DepartmentSetup/components/DeaprtmentList/DeaprtmentList.js - 
+    .useEffect() , onCheck(),renderSkeleton() not added documentation
+    .useEffect() ,onCheck(),handleSubmit(),renderSkeleton(),mapDispatchToProps()  not in es6 format
+76. modules/Disease/components/Hospital/components/SetupPractice/components/DepartmentSetup/DepartmentSetup.js- 
+    .useEffect()  not added documentation
+    .departmentFormHideShow(),  not in es6 format
+77. modules/Disease/components/Hospital/components/SetupPractice/components/DesignationSetUp/components/DesignationForm/DesignationForm.js
+    .useEffect()  not added documentation
+    .useEffect() cleanup function ,addDesignationInOrganization(),mapDispatchToProps()  not in es6 format
+78. modules/Disease/components/Hospital/components/SetupPractice/components/DesignationSetUp/components/DesignationList/DesignationList.js
+    .useEffect() ,onCheck(),renderSkeleton()  not added documentation
+    .useEffect() ,onCheck(),handleSubmit(),mapDispatchToProps()  not in es6 format
+79. modules/Disease/components/Hospital/components/SetupPractice/components/DesignationSetUp/DesignationSetUp.js- 
+    .useEffect(), designationFormHideShow() not added documentation
+    .designationFormHideShow()  not in es6 format
+80. modules/Disease/components/Hospital/components/SetupPractice/components/DiseaseSetup/DiseaseSetup.js- 
+    .useEffect(), diseaseFormHideShow() not added documentation
+    .diseaseFormHideShow()  not in es6 format
+81. modules/Disease/components/Hospital/components/SetupPractice/components/FacilitiesSetup/FacilitiesSetup.js- 
+    .useEffect(), onCheck(),renderSkeleton() not added documentation
+    .useEffect(),onCheck(),mapDispatchToProps()  not in es6 format
+82. modules/Disease/components/Hospital/components/SetupPractice/components/GenericProcrdureNoteTemplate/components/ProcedureForm/ProcedureForm.js
+    .checkAvailability(), handleChangeHospitalNotes(),checkConditionalityCSS() not added documentation
+    .handleChangeHospitalNotes(),checkConditionalityCSS() not in es6 format
+83. modules/Disease/components/Hospital/components/SetupPractice/components/GenericProcrdureNoteTemplate/components/ProcedureList/ProcedureList.j
+    .useEffect(), handleChangeToggleButton(),onCheck(),renderSkeleton(),handleChangeSelectLanguage() not added documentation
+    .useEffect(),onCheck(),handleChangeSelectLanguage(),handleChangeToggleButton(),mapDispatchToProps() not in es6 format
+84. modules/Disease/components/Hospital/components/SetupPractice/components/GenericProcrdureNoteTemplate/components/UnusedList/UnusedList.j
+    .const formField,disabledFields,checkAvailability(), useEffect() not added documentation
+    .useEffect() not in es6 format
+85. modules/Disease/components/Hospital/components/SetupPractice/components/GenericProcrdureNoteTemplate/GenericProcrdureNoteTemplate.js 
+    .const hospitalInfo,getProcedureTemplate(), useEffect(),fieldRemoveFromForm(),fieldAddInForm(),saveTemplate() not added documentation
+    .useEffect(),fieldRemoveFromForm(),fieldAddInForm(),mapDispatchToProps() not in es6 format
+86. modules/Disease/components/Hospital/components/SetupPractice/components/LanguageSetup/LanguageSetup.js
+    .useEffect(),fieldRemoveFromForm(),onCheck(),renderSkeleton() not added documentation
+    .useEffect(),handleSubmit() else condi. ,onCheck(),mapDispatchToProps()not in es6 format
+87. modules/Disease/components/Hospital/components/SetupPractice/components/MedicinesSetup/MedicinesSetup.js
+    .useEffect() not added documentation
+    .medicineFormHideShow()not in es6 format
+88. modules/Disease/components/Hospital/components/SetupPractice/components/MedicinesSetup/MedicinesSetup.js
+    .useEffect() not added documentation
+    .medicineFormHideShow()not in es6 format
+89. modules/Disease/components/Hospital/components/SetupPractice/components/PrescriptionTemplateSetup/components/PrescriptionForm/PrescriptionForm.js
+     .checkAvailability(),handleChangeTextArea(),checkConditionalityCSS() not added documentation
+    .handleChangeTextArea(),checkConditionalityCSS() not in es6 format
+90. modules/Disease/components/Hospital/components/SetupPractice/components/PrescriptionTemplateSetup/components/UnusedField/UnusedField.js
+    .useEffect() not added documentation
+    .useEffect() not in es6 format
+91. modules/Disease/components/Hospital/components/SetupPractice/components/PrescriptionTemplateSetup/PrescriptionTemplateSetup.js 
+    .useEffect(),getPrescriptionTemplate(),fieldRemoveFromForm(),fieldAddInForm(),saveTemplate() not added documentation
+    .fieldRemoveFromForm(),fieldAddInForm() ,mapDispatchToProps() not in es6 format
+92. modules/Disease/components/Hospital/components/SetupPractice/components/RoleSetup/components/RoleSelection/RoleSetup .js 
+    .useEffect(), onCheck() ,handleSave()not added documentation
+    .useEffect(), onCheck(),handleSave(), mapDispatchToProps() not in es6 format
+93. modules/Disease/components/Hospital/components/SetupPractice/components/RoleSetup/RoleSetup.js 
+     .useEffect(), onViewDetails(),onAddNewTemplate() not added documentation
+    .onAddNewTemplate() not in es6 format
+94. modules/Disease/components/Hospital/components/SetupPractice/components/SpecialSetup/SpecialSetup.js 
+     .useEffect() ,onCheck(), renderSkeleton()not added documentation
+    .useEffect() ,onCheck(),mapDispatchToProps() not in es6 format
+95. modules/Disease/components/Hospital/components/SetupPractice/components/SymptomSetup/SymptomSetup.js 
+     .symptomsFormHideShow() not added documentation
+    .useEffect() ,symptomsFormHideShow()  not in es6 format
+96. modules/Disease/components/Hospital/components/SetupPractice/components/UserSetup/UserSetup.js 
+    .tableOrFormHideShow(),handleUpdateUser() not added documentation
+    .tableOrFormHideShow()  not in es6 format
+97. modules/Disease/components/Hospital/components/SetupPractice/SetupPractice.js
+      .getSteps(),useEffect(),handleNext(),handleFinish() not added documentation
+    .handleCloseSnackbar(),handleBack(),handleFinish(),clearSession()  not in es6 format
+98. modules/Disease/components/Hospital/components/UpdateHospital/UpdateHospital.js
+   .backCallback(),useEffect(),getHospitalDetailsById() not added documentation
+    .backCallback(),getHospitalDetailsById(),handleUpdateHospital(),mapDispatchToProps()  not in es6 format
+99. modules/Disease/components/Hospital/components/WorkingHours/WorkingHours.js
+     .handleChangeCheckbox(),handleSubmit(),workingHourForm(),workingHoursAdd(),workingHoursRemove(),handleTimeChange(),overlap(),handleSave() not added documentation
+    .overlap(),handleSave() not in es6 format
+100. modules/Disease/components/Hospital/utils/UtilHelper.js 
+    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
+101. modules/Disease/components/Hospital/HospitalActions.js 
+    . updateOrganizationStatus() not added documentation
+
+
+
+
+
+
