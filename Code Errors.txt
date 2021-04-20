@@ -449,6 +449,9 @@
     . logoutAction() not in es6 format
 155. utils/Auth.js
     .const cookies ,setToken(),getToken(),getTokenFromSessionStorage(),setSystemGeneratedPassword(),setSurveySubmit() not added documentation
+156. utils/HttpRequest.js
+    . showHideLoader(),upload() not added documentation
+    . showHideLoader() Line No.41,47,52., send() Line No.67 & else if condi.,upload() line no.118 if condi., not in es6 format
 
 
 
