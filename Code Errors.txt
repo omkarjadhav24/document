@@ -452,6 +452,19 @@
 156. utils/HttpRequest.js
     . showHideLoader(),upload() not added documentation
     . showHideLoader() Line No.41,47,52., send() Line No.67 & else if condi.,upload() line no.118 if condi., not in es6 format
+156. utils/UtilHelper.js
+    . numberToCurrency(),validateMobileNumber(),validatePassword(),validateUserName()
+    validateOnlyNumber(),validateString(),validateBlankSpaces(),validateNegativeValue()
+    blockSpecialCharacter(),validAgeInput(),validateFloatValue(),isFloat(),stringBeforeDecimal()
+    asyncForEach(),filterColumnReactTable(),getCurrentRole(),sortJsonArray(),validateObject(),getBase64()
+    trimObject()
+     not added documentation
+    . numberToCurrency(), validateMobileNumber() if condi.,validatePassword() if condi.,validateUserName() if condi.,
+    validateOnlyNumber() if condi.,validateString() if condi.,validateBlankSpaces() if condi.,validateNegativeValue() if condi.,
+    blockSpecialCharacter() if condi.,validAgeInput() if condi.,validateFloatValue() if condi.,isFloat(),stringBeforeDecimal()
+   filterColumnReactTable() if condi.,getCurrentRole() if condi.,sortJsonArray() if condi.,validateObject() if.,
+    trimObject() for .,
+     not in es6 format
 
 
 
