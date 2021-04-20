@@ -29,6 +29,8 @@
 9. modules/Allergies/Utils/UtilHelper.js  -
     . validateBlankSpaces() not added documentation
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
+*. modules/Allergies/AllergicApiAction-
+    . getAllDefaultAllergiesRequest() if else in dispatch,  is not in es6 format
 10. modules/Authentication/components/EnterMobile/EnterMobile.js -
     . I18n.t() where did he come from and used for ?
     . useState()  not added documentation
@@ -300,6 +302,153 @@
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
 101. modules/Disease/components/Hospital/HospitalActions.js 
     . updateOrganizationStatus() not added documentation
+102. modules/Disease/components/Medicine/components/AddMedicine/AddMedicine.js  -
+    . backCallback(),useEffect(),const isMedicineSetup  not added documentation
+    . backCallback(), addMedicine() ,mapDispatchToProps() not in es6 format
+103. modules/Disease/components/Medicine/components/MedicineForm/MedicineForm.js  -
+    . useEffect() not added documentation
+    . useEffect(2)&useEffect(1) cleanUp function not in es6 format
+104. modules/Disease/components/Medicine/components/MedicineTable/components/DefaultMedicine/DefaultMedicine.js 
+    . useEffect(),handleSearchChange(),onMarkPreferredMedicines() not added documentation
+    . useEffect(),handleSearchChange() not in es6 format
+105. modules/Disease/components/Medicine/components/MedicineTable/components/PreferredMedicine/PreferredMedicine.js 
+    . useEffect(),handleSearchChange() not added documentation
+    . useEffect(),handleSearchChange() not in es6 format
+106. modules/Disease/components/Medicine/components/MedicineTable/components/PreferredMedicine/PreferredMedicine.js 
+    . const columns not added documentation
+    . return on line no.32,41 not in es6 format
+107. modules/Disease/components/Medicine/components/MedicineTable/MedicineTable.js 
+    . useEffect(),attachComponentCallback(), not added documentation
+    . mapDispatchToProps() not in es6 format
+108. modules/Disease/components/Medicine/utils/UtilHelper.js 
+    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
+109. modules/Disease/components/Medicine/MedicineReducer.js 
+    . case UPDATE_MEDICINE not in es6 format
+110. modules/Disease/components/Staff/AddStaff/AddStaff.js 
+    . const Transition,specialities , onSelectLanguageChange()not added documentation
+    . componentDidMount(),componentWillUnmount(),handleChange() if else condi.,handleSubmitFirstStep(),componentWillReceiveProps() if else    is not in es6 format
+111. modules/Disease/components/Staff/StaffTable/StaffTable.js 
+    . const rows, tableTitle() not added documentation
+    . onEditStaff(), return 128,152 line no., is not in es6 format
+112. modules/Disease/components/Staff/utils/UtilHelper
+    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
+113. modules/Disease/components/Symptoms/components/AddSymptoms/AddSymptoms.js
+    . backCallback(),attachComponentCallback(),useEffect(),const isSymptomsSetup not added documentation
+    . backCallback() ,addSymptoms(),mapDispatchToProps()  is not in es6 format
+114. modules/Disease/components/Symptoms/components/SymptomsForm/SymptomsForm.js
+    . useEffect(1),useeffect(2) not added documentation
+    . useEffect(1) cleanup func.,useeffect(2) if condi., is not in es6 format
+115. modules/Disease/components/Symptoms/components/SymptomsTable/components/DefaultSymptoms/DefaultSymptoms.js 
+    . useEffect(),onMarkPreferredSymptoms(), not added documentation
+    . handleSearchChange()is not in es6 format
+116. modules/Disease/components/Symptoms/components/SymptomsTable/components/PreferredSymptoms/PreferredSymptoms.js 
+    . useEffect() ,handleSearchChange()not added documentation
+    . useEffect(),handleSearchChange()is not in es6 format
+117. modules/Disease/components/Symptoms/components/SymptomsTable/components/Table/Table.js 
+    . const columns not added documentation
+    . return on line no. 28,37is not in es6 format
+118. modules/Disease/components/Symptoms/components/SymptomsTable/SymptomsTable.js 
+    .useEffect() not added documentation
+    . mapDispatchToProps() is not in es6 format
+119. modules/Disease/components/Symptoms/components/SymptomsTable/SymptomsTable.js 
+    . const rows,symptomId,backCallback(),useEffect(),getSymptomDetailsById() not added documentation
+    . backCallback() is not in es6 format
+120. modules/Disease/components/Symptoms/utils/UtilHelper 
+    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format    
+121. modules/Disease/components/Symptoms/SymptomsReducer
+    . case UPDATE_SYMPTOMS is not in es6 format    
+122. modules/Disease/components/User/components/AddUser/AddUser.js 
+    . backCallback(),useEffect() not added documentation
+    . backCallback(),mapDispatchToProps() is not in es6 format    
+123. modules/Disease/components/User/components/UpdateUser/UpdateUser.js 
+    . backCallback(),useEffect() not added documentation
+    . backCallback(),getUser() if condi.,handleUpdateUser(),mapDispatchToProps() is not in es6 format    
+124. modules/Disease/components/User/components/UserForm/UserForm.js 
+     . useEffect(),onLanguageChange() not added documentation
+    . useEffect() clenup func.,handleChangeInput() else condi.,handleChangeAutocomplete() if else condi., is not in es6 format    
+125. modules/Disease/components/User/components/UserProfile/UserProfile.js 
+    . const selectOptions,onSelectEducation(),onSelectLanguage(),onSave(),onCheckValidate() not added documentation
+    . onCheckValidate() else condi., is not in es6 format    
+126. modules/Disease/components/User/components/UserTable/UserTable.js 
+     .useEffect(),tableTitle() not added documentation
+    . useEffect(),onEditUser() if else condi.,return on line no.63,70.,mapDispatchToProps()  is not in es6 format    
+127. modules/Disease/components/User/components/utils/UtilHelper.js
+    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
+128. modules/Disease/components/User/UserAction
+    . validateBlankSpaces() not added documentation
+    . createUser() return line no.55 ,updateUser() return line no.77  is not in es6 format
+129. modules/Disease/components/User/UserReducer
+    . case GET_ALL_USERS return .,GET_ALL_DOCTOR_USERS return .,CREATE_USER return .,SIGN_OUT return .,default return .,UPDATE_USER if else .,  is not in es6 format
+---------
+130. utils/components/AppLoader/AppLoaderActions.js
+    . showLoader(),hideLoader(),clearSnackbar(),showSnackbar() not added documentation
+131. utils/components/AppLoader/AppLoaderReducer.js
+    . case HIDE_SNACK_BAR,SHOW_SNACK_BAR,SIGN_OUT not added documentation
+132. utils/components/AvatarCell/AvatarCell.js
+    . const avatarDetailsClass not added documentation
+    . const avatar if condi. is not in es6 format
+133. utils/components/EditableLabel/EditableLabel.js
+    . onFocus(),onFocusOut(),doUndo(),not added documentation
+134. utils/components/GridViewer/gridviewer.js
+    . const style ,Masonry(),useEffect(),getColumns(),onResize(),mapChildren(),const Tile not added documentation
+    . Masonry() if else.,useEffect() cleanUp func.,getColumns() return.,onResize() if condi.,const Tile return.  is not in es6 format
+135. utils/components/MessageMondal/MessageMondal.js
+    . closeModal(),componentDidLoad(),if condi. line no.100,112 not added documentation
+    . closeModal()  not in es6 format
+136. utils/components/PageHeader/pageheader.js
+    . const styles ,useEffect(),PageHeader.propTypes not added documentation
+    . useEffect() not in es6 format
+137. utils/components/SelectLanguage/SelectLanguage.js
+    . const modalRef ,useEffect(),handleChangeAutocomplete() not added documentation
+    . useEffect() if else condi.,mapDispatchToProps() not in es6 format
+138. utils/components/SideDrawer/SideDrawer.js
+    . const styles not added documentation
+    . const SideDrawerConnect second parameter remains
+139. utils/components/SideMenu/components/Profile.js
+    . const styles not added documentation
+140. utils/components/SideMenu/components/SidebarNav.js
+    . const styles,CustomRouterLink,handleClick(),SidebarNav.propTypes not added documentation
+    . handleClick() not in es6 format
+141. utils/components/SideMenu/components/StripeDashboard.js
+    . const style,componentDidMount() not added documentation
+    . componentDidMount() if else condi.,mapDispatchToProps() not in es6 format
+142. utils/components/SideMenu/Index
+    . const style, handleClickUserProfile() not added documentation
+    . handleClickUserProfile() not in es6 format
+143. utils/components/TabView/TabView.js 
+    .const styles, TabPanel.propTypes handleChange() not added documentation
+    . handleChange() not in es6 format
+143. utils/components/Theme/overrides/Index
+    .export default not added documentation
+144. utils/components/Theme/overrides/MuiButton
+    .export default not added documentation
+145. utils/components/Theme/overrides/MuiIconButton
+    .export default not added documentation
+146. utils/components/Theme/overrides/MuiPaper
+    .export default not added documentation
+147. utils/components/Theme/overrides/MuiTableCell
+    .export default not added documentation
+148. utils/components/Theme/overrides/MuiTableHead
+    .export default not added documentation
+149. utils/components/Theme/overrides/MuiTableRow
+    .export default not added documentation
+150. utils/components/Theme/overrides/MuiTypograpgy
+    .export default not added documentation
+151. utils/components/Theme/Index
+    .const theme not added documentation
+152. utils/components/Theme/palette
+    .export default not added documentation
+153. utils/components/Theme/typograpgy
+    .export default not added documentation
+154. utils/components/Topbar/Topbar
+    .const styles,logoutAction(),Topbar.propTypes not added documentation
+    . logoutAction() not in es6 format
+155. utils/Auth.js
+    .const cookies ,setToken(),getToken(),getTokenFromSessionStorage(),setSystemGeneratedPassword(),setSurveySubmit() not added documentation
 
 
 
