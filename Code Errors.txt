@@ -58,7 +58,7 @@
     . I18n.t() where did he come from and used for ?
 18. modules/Authentication/components/SelectOrganization/SelectOrganization.js-
     . useEffect(),userOrganizationsByNumber(),handleSelectOrganization(), useState(), mobile var. not added documentation
-    . userOrganizationsByNumber() if condi.,mapDispatchToProps() if condi. is not in es6 format
+    . userOrganizationsByNumber() if condi.,mapDispatchToProps()  is not in es6 format
     . I18n.t() where did he come from and used for ?
 19.  modules/Authentication/components/SetupPin/SetupPin.js-
     . handleChange() ,validatePin() , mapDispatchToProps() not added documentation
