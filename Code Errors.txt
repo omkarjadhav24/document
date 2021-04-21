@@ -1,7 +1,7 @@
 1.en.js & hi - 
     . what to use and where to use is not written at the top of file
 2. modules/Allergies/components/AddAllergies/AddAllergies-
-    . backCallback() not in Es6 format 
+    . backCallback(),handleAddAllergies() if else condi., not in Es6 format 
     . useEffect() , isAllergySetup , mapStateToProps ,mapDispatchToProps  not added documentation
     . I18n.t() where did he come from and used for ?
 3. modules/Allergies/components/AllergiesForm/AllergiesForm.js. 
@@ -22,27 +22,31 @@
 7. modules/Allergies/components/AllergiesTable/AllergiesTable.js 
     . useEffect() , mapStateToProps , mapDispatchToProps  not added documentation
     . I18n.t() where did he come from and used for ?
+    . mapDispatchToProps()  not in Es6 format 
 8. modules/Allergies/components/UpdateAllergies/UpdateAllergies.js -
-    . useEffect() ,allergyId Var. , gridSize  not added documentation
+    . useEffect(), backCallback(),getAllergyDetailsById(),allergyId Var. , gridSize  not added documentation
     . backCallback()  not in Es6 format 
     . I18n.t() where did he come from and used for ?
 9. modules/Allergies/Utils/UtilHelper.js  -
-    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces(),trimObject() not added documentation
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
-*. modules/Allergies/AllergicApiAction-
+*. modules/Allergies/AllergiesApiAction-
     . getAllDefaultAllergiesRequest() if else in dispatch,  is not in es6 format
+*. modules/Allergies/AllergiesReducer-
+    . case UPDATE_ALLERGY if else condi. Line No.54,  is not in es6 format
 10. modules/Authentication/components/EnterMobile/EnterMobile.js -
     . I18n.t() where did he come from and used for ?
     . useState()  not added documentation
 11. modules/Authentication/components/ForgetPin/ForgetPin.js -
     . I18n.t() where did he come from and used for ?
     . useState() , loginWithPin() ,loginWithOtp(),mapDispatchToProps() ,generateOTP() not added documentation
-    . loginWithPin() ,loginWithOtp() is not in es6 format
+    . loginWithPin() ,loginWithOtp(),mapDispatchToProps() is not in es6 format
     . getDeviceId()  where did he come from and used for  in comments
 15. modules/Authentication/components/LoginWithOtp/LoginWithOtp.js -
     . regenerateOtp() , loginWithOTP() , generateOTP() , userOrganizationsByNumber() not added documentation
     . getDeviceId()  where did he come from and used for  in comments
     . I18n.t() where did he come from and used for ?
+    . mapDispatchToProps() is not in es6 format
 16. modules/Authentication/components/LoginWithPin/LoginWithPin.js-
     . userOrganizationsByNumber() , forgetPin() , handleChangeAutocomplete() , handleSelectedOrganization() ,loginWithPin(),cancelSelectOrganization() not added documentation
     . loginWithPin() if condi. , handleChangeAutocomplete() , forgetPin() , is not in es6 format
@@ -96,7 +100,7 @@
     . useEffect(),backCallback(),getTemplateDetailsById(),UpdateRole(),mapDispatchToProps(),mapStateToProps()  not added documentation
     . backCallback(),UpdateRole(),mapDispatchToProps()  is not in es6 format
 32.  modules/Authorisation/Utils/UtilHelper.js -
-    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces(),trimObject not added documentation
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
 33.  modules/Authorisation/AuthorisationActions.js
     . setAllResources(),setAllRoles(),setAllOrganizationRoles(),updateRoleDetails(),setAllDefaultLanguages(),setAllOrganizationLanguages(),
@@ -123,7 +127,7 @@
     . rows var ,columns.  not added documentation
     .return on 109 Line  is not in es6 format
 40. modules/Consult/Utils/UtilHelper.js-
-    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces(),trimObject() not added documentation
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
 41. modules/DashBoard/components/DashBoard/DashBoard.js-
     . const drawerWidth,styles. checkIdleTime(), not added documentation
@@ -152,7 +156,7 @@
     . const SYMPTOMS,MEDICINES,handleDeleteHighSymptoms(),handleDeleteMediumSymptoms(),handleDeleteLowSymptoms(),handleDeleteMedicine()  not added documentation
     . componentDidMount(),componentWillUnmount(),handleAddDiagnosisMapping() not in es6 format
 51. modules/DiagnosisMapping/utils/UtilHelper- 
-    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces(),trimObject() not added documentation
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
 52. modules/Disease/components/AddDisease/AddDisease.js- 
     . backCallback(), useEffect() not added documentation
@@ -176,7 +180,7 @@
       . backCallback(),useEffect(),not added documentation
        .backCallback()is not in es6 format
 59. modules/Disease/components/DiseaseTable/utils/UtilHelper-
- . validateBlankSpaces() not added documentation
+ . validateBlankSpaces(),trimObject() not added documentation
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
 60. modules/Disease/components/DoctorProfileSetUp/components/AddSignature/AddSignature -
      . clear(),trim()not added documentation
@@ -298,7 +302,7 @@
      .handleChangeCheckbox(),handleSubmit(),workingHourForm(),workingHoursAdd(),workingHoursRemove(),handleTimeChange(),overlap(),handleSave() not added documentation
     .overlap(),handleSave() not in es6 format
 100. modules/Disease/components/Hospital/utils/UtilHelper.js 
-    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces(),trimObject() not added documentation
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
 101. modules/Disease/components/Hospital/HospitalActions.js 
     . updateOrganizationStatus() not added documentation
@@ -321,7 +325,7 @@
     . useEffect(),attachComponentCallback(), not added documentation
     . mapDispatchToProps() not in es6 format
 108. modules/Disease/components/Medicine/utils/UtilHelper.js 
-    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces(),trimObject() not added documentation
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
 109. modules/Disease/components/Medicine/MedicineReducer.js 
     . case UPDATE_MEDICINE not in es6 format
@@ -332,7 +336,7 @@
     . const rows, tableTitle() not added documentation
     . onEditStaff(), return 128,152 line no., is not in es6 format
 112. modules/Disease/components/Staff/utils/UtilHelper
-    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces(),trimObject() not added documentation
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
 113. modules/Disease/components/Symptoms/components/AddSymptoms/AddSymptoms.js
     . backCallback(),attachComponentCallback(),useEffect(),const isSymptomsSetup not added documentation
@@ -356,7 +360,7 @@
     . const rows,symptomId,backCallback(),useEffect(),getSymptomDetailsById() not added documentation
     . backCallback() is not in es6 format
 120. modules/Disease/components/Symptoms/utils/UtilHelper 
-    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces(),trimObject() not added documentation
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format    
 121. modules/Disease/components/Symptoms/SymptomsReducer
     . case UPDATE_SYMPTOMS is not in es6 format    
@@ -376,7 +380,7 @@
      .useEffect(),tableTitle() not added documentation
     . useEffect(),onEditUser() if else condi.,return on line no.63,70.,mapDispatchToProps()  is not in es6 format    
 127. modules/Disease/components/User/components/utils/UtilHelper.js
-    . validateBlankSpaces() not added documentation
+    . validateBlankSpaces(),trimObject() not added documentation
     . validateBlankSpaces() in that function if else & trimObject() if else  is not in es6 format
 128. modules/Disease/components/User/UserAction
     . validateBlankSpaces() not added documentation
@@ -465,6 +469,8 @@
    filterColumnReactTable() if condi.,getCurrentRole() if condi.,sortJsonArray() if condi.,validateObject() if.,
     trimObject() for .,
      not in es6 format
+157. src/index.js
+    . syncTranslationWithStore(),loadTranslations(),setLocale() not added documentation
 
 
 
